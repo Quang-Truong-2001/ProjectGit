@@ -9,5 +9,6 @@ namespace Service.Interfaces
     internal interface IService
     {
         Task<List<string>> GetAll();
+        List<string> GetList();
     }
 }
