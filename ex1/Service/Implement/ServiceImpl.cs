@@ -14,5 +14,10 @@ namespace Service.Implement
             List<string> list = new List<string>();
             throw new NotImplementedException();
         }
+
+        public List<string> GetList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
