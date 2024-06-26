@@ -11,6 +11,7 @@ namespace Service.Implement
     {
         public Task<List<string>> GetAll()
         {
+            List<string> list = new List<string>();
             throw new NotImplementedException();
         }
     }
